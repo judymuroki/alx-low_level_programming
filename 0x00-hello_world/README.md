@@ -1,1 +1,1 @@
-6. Size is not grandeur
+7. Intel
