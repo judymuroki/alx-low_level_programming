@@ -12,19 +12,18 @@ void print_diagonal(int n)
 		_putchar('\n');
 	} else
 	{
-		int f, h;
+		int i, j;
 
-		for (f = 0; f < n; f++)
+		for (i = 0; i < n; i++)
 		{
-			for (h = 0; h < n; h++)
+			for (j = 0; j < n; j++)
 			{
-				if (h == f)
+				if (j == i)
 					_putchar('\\');
-				else if (h < f)
+				else if (j < i)
 					_putchar(' ');
 			}
 			_putchar('\n');
 		}
 	}
 }
-

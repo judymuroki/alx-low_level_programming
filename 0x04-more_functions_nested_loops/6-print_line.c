@@ -11,9 +11,9 @@ void print_line(int n)
 		_putchar('\n');
 	} else
 	{
-		int s;
+		int i;
 
-		for (s = 1; s <= n; s++)
+		for (i = 1; i <= n; i++)
 		{
 			_putchar('_');
 		}

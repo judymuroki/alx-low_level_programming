@@ -8,12 +8,12 @@
 
 void print_most_numbers(void)
 {
-	char m;
+	char c;
 
-	for (m = '0'; m <= '9'; m++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (!(m == '2' || m == '4'))
-			_putchar(m);
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
 	}
 	_putchar('\n');
 }
