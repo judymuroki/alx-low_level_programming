@@ -1,1 +1,1 @@
-A C Programming project that seeks to solve Function pointers questions.
+A C Program that seeks to work on Function pointers.
